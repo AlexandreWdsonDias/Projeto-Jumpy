@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stalys.css">
+    <title>Projeto JUMPY</title>
+</head>
+    <body>
+
+        <header>
+            <img src="Logo_DNC.png" width="10%" alt="Logo da DNC Treinamentos e Consultoria LTDA">
+        </header>
+
+        <div id="cadastro">
+            <img src="Logo_Jumpy.png" width="20%" alt="Logo do Projeto Jumpy">
+            <h2>Bem vindo ao Jumpy!</h2>
+        
+            <form onsubmit="cadastra()">
+                <label for="nome">Nome Completo:</label>
+                <input autocomplete="off" type="text" placeholder="Seu nome completo" id="fnome" name="nome">
+                <label class="obrigatorio">Campo Obrigatório*</label>
+
+                <label for="email">Email:</label>
+                <input autocomplete="off" type="text" placeholder="Email@email.com" id="femail" name="email">
+                <label class="obrigatorio">Campo Obrigatório*</label>
+
+                <label for="fone">Telefone:</label>
+                <input autocomplete="off" type="text" placeholder="(00)0.0000-0000" id="ffone" name="fone">
+                <label class="obrigatorio">Campo Obrigatório*</label>
+
+                <label for="cpf">C.P.F.:</label>
+                <input autocomplete="off" type="text" placeholder="000.000.000-00" id="fcpf" name="cpf">
+                <label class="obrigatorio">Campo Obrigatório*</label>
+
+                <label for="senha">Senha:</label>
+                <input autocomplete="off" type="text" placeholder="**************" id="fsenha" name="senha">
+                <label class="obrigatorio">Campo Obrigatório*</label>
+
+                <button class="submeter" type="submit">Cadastrar</button>
+                <label class="obrigatorio">Campos Obrigatórios não registrados</label>
+            </form>
+        </div>
+
+        <script src="main.js"></script>
+    </body>
+</html>
